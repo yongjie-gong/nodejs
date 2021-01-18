@@ -1,0 +1,14 @@
+{
+    "compileOnSave": true,
+    "compilerOptions":{      
+        "target":"es5",       //compilar es5 script(js)
+        "module":"commonjs",  //module spec: commonjs
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators":true,   //keep the metadata of decorators
+        "outDir":"build",   //output folder for compiled files
+        "lib":["es6"]       //use es6 as development spec
+    },
+    "exclude": [            //excluded file when compile
+        "node_modules"
+    ]
+}
